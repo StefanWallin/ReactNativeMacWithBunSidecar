@@ -12,6 +12,8 @@
 		514201522437B4B40078DB4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 514201512437B4B40078DB4F /* Assets.xcassets */; };
 		514201552437B4B40078DB4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 514201532437B4B40078DB4F /* Main.storyboard */; };
 		514201582437B4B40078DB4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 514201572437B4B40078DB4F /* main.m */; };
+		F6398AB72B8012CF0089EEE4 /* Bridges in Resources */ = {isa = PBXBuildFile; fileRef = F6398AB62B8012CF0089EEE4 /* Bridges */; };
+		F6398ABA2B801D310089EEE4 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = F6398AB92B801D310089EEE4 /* index.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,9 @@
 		60F5C3B71D5429E0C5FF5F88 /* Pods-ReactNativeMacWithBunSidecar-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeMacWithBunSidecar-macOS.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeMacWithBunSidecar-macOS/Pods-ReactNativeMacWithBunSidecar-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		799CBF8F054B12C25F5B8C6D /* libPods-ReactNativeMacWithBunSidecar-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeMacWithBunSidecar-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F6398AB62B8012CF0089EEE4 /* Bridges */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Bridges; sourceTree = "<group>"; };
+		F6398AB82B8012D90089EEE4 /* bun */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = bun; sourceTree = "<group>"; };
+		F6398AB92B801D310089EEE4 /* index.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +69,14 @@
 				2F947B9C6804FAFCCF1E768B /* Pods-ReactNativeMacWithBunSidecar-macOS.debug.xcconfig */,
 				60F5C3B71D5429E0C5FF5F88 /* Pods-ReactNativeMacWithBunSidecar-macOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		5142014A2437B4B30078DB4F /* ReactNativeMacWithBunSidecar-macOS */ = {
 			isa = PBXGroup;
 			children = (
+				F6398AB82B8012D90089EEE4 /* bun */,
+				F6398AB62B8012CF0089EEE4 /* Bridges */,
 				5142014B2437B4B30078DB4F /* AppDelegate.h */,
 				5142014C2437B4B30078DB4F /* AppDelegate.mm */,
 				514201512437B4B40078DB4F /* Assets.xcassets */,
@@ -78,6 +84,7 @@
 				514201562437B4B40078DB4F /* Info.plist */,
 				514201572437B4B40078DB4F /* main.m */,
 				514201592437B4B40078DB4F /* ReactNativeMacWithBunSidecar.entitlements */,
+				F6398AB92B801D310089EEE4 /* index.js */,
 			);
 			path = "ReactNativeMacWithBunSidecar-macOS";
 			sourceTree = "<group>";
@@ -203,8 +210,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6398AB72B8012CF0089EEE4 /* Bridges in Resources */,
 				514201522437B4B40078DB4F /* Assets.xcassets in Resources */,
 				514201552437B4B40078DB4F /* Main.storyboard in Resources */,
+				F6398ABA2B801D310089EEE4 /* index.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
